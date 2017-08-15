@@ -1,0 +1,52 @@
+*{
+    border: 2px dotted red;
+}
+.wrapper{
+    width: 950px;
+    padding: 10px;
+    margin: auto;
+}
+.header{
+    height: 65px;
+    width: 100%
+}
+.name{
+    display: inline-block;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+}
+.master{
+    display: inline-block;
+    text-align: right;
+}
+.main{
+    padding: 10px;
+    background-color: #660033;
+}
+.lead{
+    height: 65px;
+    background-color: gray;
+}
+.content{
+    background-color: white;
+}
+.bio{
+    height: 275px;
+}
+img{
+    height: 100%;
+    border: 2px solid white;
+}
+.photo{
+    display: inline-block;
+    height: 100%;
+}
+.about-me{
+    display: inline-block;
+    height: 100%;
+    /* width: auto; */
+    width: 400px;
+}
+.project{
+    width: 30%;
+    display: inline-block;
+}
