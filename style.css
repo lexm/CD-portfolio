@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 2px dotted red;
-}
+} */
 .wrapper{
     width: 950px;
     padding: 10px;
@@ -23,21 +23,23 @@
     background-color: #660033;
 }
 .lead{
-    height: 65px;
+    height: 40px;
     background-color: gray;
 }
 .content{
     background-color: white;
+    font-family: "Arial", "Helvetica", "san serif";
+    font-size: small;
 }
 .bio{
     height: 275px;
 }
 img{
     height: 100%;
-    border: 2px solid white;
 }
 .photo{
     display: inline-block;
+    border: 2px solid white;
     height: 100%;
 }
 .about-me{
@@ -48,5 +50,26 @@ img{
 }
 .project{
     width: 30%;
+    display: inline-block;
+}
+.project img{
+    width: 100%;
+}
+.content img{
+    width: 40px;
+}
+.project p{
+    height: 200px;
+}
+.contact {
+    text-align: center;
+}
+.bottom img{
+    height: 15px;
+}
+.bottom ul{
+    text-align: center;
+}
+.bottom li{
     display: inline-block;
 }
